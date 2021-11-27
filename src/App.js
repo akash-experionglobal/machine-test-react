@@ -1,24 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+import LoginForm from './Login';
+import RegistrationForm from './Registration';
+import VisitCustomer from './CustomerList';
+import CustomerDetails from './CustomerDetails';
+import CustomerDelete from './CustomerDelete';
+import CustomerEdit from './CustomerEdit';
+
+
 
 function App() {
+  return <MyRouter />;
+}
+
+function MyRouter() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Link to="/"></Link>
+      <Routes>
+        <Route path="/" element={<LoginForm />} />
+        <Route path="/register" element={<RegistrationForm />} />
+        <Route path="/visitcustomerdetails" element={<VisitCustomer />} />
+        <Route path="/customerdetails/:id" element={<CustomerDetails/>}/>
+        <Route path="/customerdelete/:id" element={<CustomerDelete/>}/>
+        <Route path="/customeredit/:id" element={<CustomerEdit/>}/>
+      </Routes>
+    </Router>
   );
 }
 

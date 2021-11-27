@@ -1,0 +1,34 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "Krysta Facchini",
+      "password": "HmsmVCKCiy",
+      "usertype": "Powell Tinkler"
+    },
+    {
+      "id": 2,
+      "username": "Giraldo Dudny",
+      "password": "FM6vAKj",
+      "usertype": "Hettie Conaboy"
+    },
+    {
+      "id": 3,
+      "username": "Drud Rockwell",
+      "password": "msX5xIOR",
+      "usertype": "Barrie Ziehm"
+    },
+    {
+      "id": 4,
+      "username": "Gregory Kampshell",
+      "password": "fb5hYeSiBC",
+      "usertype": "Sigfrid Lynthal"
+    },
+    {
+      "id": 5,
+      "username": "Gabbie Barrabeale",
+      "password": "GLiFIi5AX",
+      "usertype": "Brennen Storkes"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "customer": [
+    {
+      "id": 2,
+      "cust_name": "Avigdor Zotto",
+      "contact_person": "Cosme Doud",
+      "contact_number": "211-668-4910",
+      "interest_product": "Emmalyn Vickers",
+      "visit_subject": "Winna Pinel",
+      "description": "Dominica Gosford",
+      "visit_datetime": "2018-11-19",
+      "is_disabled": "false",
+      "is_deleted": "false",
+      "emp_id": 2
+    },
+    {
+      "id": 3,
+      "cust_name": "Ozzie Harkness",
+      "contact_person": "Karlis Capponeer",
+      "contact_number": "352-629-1889",
+      "interest_product": "Yelena Simmon",
+      "visit_subject": "Iggie Heselwood",
+      "description": "Lauri Casari",
+      "visit_datetime": "2019-04-09",
+      "is_disabled": "true",
+      "is_deleted": "false",
+      "emp_id": 3
+    },
+    {
+      "id": 4,
+      "cust_name": "Arlinda de Nore",
+      "contact_person": "Mada Gimbrett",
+      "contact_number": "480-784-8941",
+      "interest_product": "Wendeline Lingwood",
+      "visit_subject": "Turner Cartan",
+      "description": "Herman Bennington",
+      "visit_datetime": "2021-07-03",
+      "is_disabled": "true",
+      "is_deleted": "true",
+      "emp_id": 4
+    },
+    {
+      "id": 5,
+      "cust_name": "Isabelle Kellett",
+      "contact_person": "Cindelyn Powner",
+      "contact_number": "346-172-9484",
+      "interest_product": "Alanah Armour",
+      "visit_subject": "Florinda Sycamore",
+      "description": "Gerardo Kalinowsky",
+      "visit_datetime": "2018-03-16",
+      "is_disabled": "true",
+      "is_deleted": "false",
+      "emp_id": 5
+    }
+  ]
+}
