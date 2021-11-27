@@ -16,6 +16,7 @@ function Header() {
           <Nav className="me-auto my-2 my-lg-0">
             <Nav.Link><Link to="/" style={{ color: "black", textDecoration: "none", marginLeft:100, fontSize:18}}>Login</Link></Nav.Link>
             <Nav.Link><Link to="/register" style={{ color: "black", textDecoration: "none", marginLeft:50, fontSize:18 }}>Register</Link></Nav.Link>  
+            <Nav.Link><Link to="/visitcustomerdetails" style={{ color: "black", textDecoration: "none", marginLeft:50, fontSize:18 }}>Customer Details</Link></Nav.Link>  
           </Nav>
         </Container>
       </Navbar>
